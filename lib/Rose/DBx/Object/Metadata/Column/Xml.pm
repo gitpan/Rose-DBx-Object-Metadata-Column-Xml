@@ -5,7 +5,7 @@ our @ISA = qw(Rose::DB::Object::Metadata::Column::Text);
 
 use DBD::Oracle qw(:ora_types);
 
-our $VERSION = '0.781';
+our $VERSION = '0.782';
 
 sub type { 'xml' }
 
